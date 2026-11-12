@@ -31,3 +31,5 @@ evidence/
 # Real project media is intentionally tracked.
 !/public/**/*.jpg
 !/public/**/*.png
+
+!/src/giving-programs.json

@@ -18,3 +18,7 @@
 Facebook review covered 143 loaded captions plus the supplied sources, not a complete archive. English meanings are linked to Somali excerpts; organization-provided figures/location are attributed. Original Facebook sources remain linked; local playback works without loading Facebook’s player. Payments, organization-approved terms/privacy, domain/hosting and content permissions remain launch work.
 
 The IAB viewport override did not affect the existing preview, so mobile verification was completed in Chrome instead.
+
+## Mobile-money donation update
+
+Program selection now initializes its configured minimum. Sadaqah currently retains USD 0.50; Zakat al-Fitr rate is pending SCO. EVC/ZAAD/Sahal codes use exact recipients and encode the final hash in tel links. M-Pesa and E-Dahab expose copyable numbers. Receipt requests use a WhatsApp draft; no payment is marked confirmed and no automatic email is claimed. See docs/donations-and-email.md for the pending activation details.

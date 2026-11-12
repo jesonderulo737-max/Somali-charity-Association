@@ -1,0 +1,44 @@
+[
+  {
+    "id": "general",
+    "name": "Where most needed",
+    "minimumUSD": 0.5,
+    "type": "Sadaqah",
+    "minimumStatus": "provisional"
+  },
+  {
+    "id": "water",
+    "name": "Water relief",
+    "minimumUSD": 0.5,
+    "type": "Sadaqah",
+    "minimumStatus": "provisional"
+  },
+  {
+    "id": "education",
+    "name": "Education and orphan care",
+    "minimumUSD": 0.5,
+    "type": "Sadaqah",
+    "minimumStatus": "provisional"
+  },
+  {
+    "id": "iftar",
+    "name": "Ramadan iftar",
+    "minimumUSD": 0.5,
+    "type": "Sadaqah",
+    "minimumStatus": "provisional"
+  },
+  {
+    "id": "eid",
+    "name": "Eid support",
+    "minimumUSD": 0.5,
+    "type": "Sadaqah",
+    "minimumStatus": "provisional"
+  },
+  {
+    "id": "fitr",
+    "name": "Zakat al-Fitr",
+    "minimumUSD": null,
+    "type": "Zakat al-Fitr",
+    "minimumStatus": "pending"
+  }
+]

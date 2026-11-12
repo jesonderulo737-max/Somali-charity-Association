@@ -13,3 +13,11 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 Use blue/navy with SCO orange, consistent Arial/Helvetica system typography, and plain factual copy. Use real SCO media, not generated project images. Small amounts ($0.50/$1) in the school caption are donor contributions, not gifts distributed or scholarship award values. The 75,600+ Ramadan total counts meals/iftar portions, not unique people, and is reported by SCO. Keep original caption links alongside translated summaries; do not infer beneficiary names from photos.
 
 Use SCO’s voice in visible program descriptions (we/our). Avoid editorial phrases such as “the caption says” or “the post announces”; retain original links and translation/source provenance in expandable details and documentation.
+
+Donation flows must use SCO-provided recipient numbers. Dial templates must be supplied by SCO or verified against the operator’s own documentation. Prefill a dialer/WhatsApp message; never auto-confirm transfers or collect PINs. Program selection starts at its configured minimum; Zakat al-Fitr rate must be approved by SCO. Email receipts require verified payments, and donation-round updates require separate unchecked opt-in and an unsubscribe path.
+
+## Deferred decisions — confirmed by SCO on 12 November 2026
+
+SCO will decide the minimum donation for each program later. Existing USD 0.50 sadaqah amounts are provisional technical defaults, not an approved program policy; keep them configurable and describe them as starting amounts. The Zakat al-Fitr per-person rate remains unset. SCO will also choose its domain and purchase/choose the sending email account and email provider later. Do not guess these choices or claim automatic email is active. Keep room for verified thank-you emails, opt-in donation-round announcements and unsubscribe handling.
+
+SCO reconfirmed Sahal recipient 0616666744 and exact template *883*0616666744*amount#. M-Pesa recipient remains 0712828308; country/currency are not confirmed.

@@ -1,6 +1,6 @@
 # Somali Charity Organization (SCO)
 
-Responsive website using SCO’s logo, navy/blue/orange palette and Arial system typography. Includes seven program videos, 28 original school/Eid photos, a source-linked activity summary, photo viewer, program filters, a Zakat estimate, and donation enquiries.
+Responsive website using SCO’s logo, navy/blue/orange palette and Arial system typography. Includes seven program videos, 28 original school/Eid photos, a source-linked activity summary, photo viewer, program filters, a Zakat estimate, and amount-filled mobile-money donation instructions.
 
 ## Local development
 
@@ -23,7 +23,7 @@ Caption translations are concise English meanings, with the Somali excerpts and 
 
 ## Before public launch
 
-- Connect an approved payment provider, server-side payment verification and receipts. Current donation flow is an enquiry only; no online payments or recurring charges are collected.
+- Connect an approved payment provider, server-side payment verification and receipts. Current donation flow prepares mobile-money dial codes and WhatsApp verification requests. Transfers happen on the donor’s phone. No gateway callback, automatic receipt email, recurring debit, or automated mailing list is connected yet.
 - Confirm organization legal details, current contacts, beneficiary-photo publication approvals, and publish organization-approved privacy/donation terms.
 - Choose hosting and a domain, configure HTTPS and host security headers, and verify media delivery on the chosen host. The included `public/_headers` applies only on hosts that support that format.
 
