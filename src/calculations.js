@@ -1,0 +1,2 @@
+export function validAmount(value){return /^\d+(\.\d{1,2})?$/.test(String(value))&&Number(value)>=.5&&Number(value)<=1000000;}
+export function zakatEstimate(assets,debts,threshold){if(assets===''||threshold==='')return null;const a=Number(assets),d=Number(debts||0),t=Number(threshold);if(![a,d,t].every(Number.isFinite)||a<0||d<0||t<=0)return null;const net=Math.max(0,a-d);return net>=t?Math.round(net*2.5)/100:0;}

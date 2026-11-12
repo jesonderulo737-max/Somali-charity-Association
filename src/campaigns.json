@@ -1,0 +1,86 @@
+[
+  {
+    "id": "water-project",
+    "title": "Water relief during drought",
+    "category": "Water",
+    "location": "Somalia",
+    "description": "We deliver emergency water to communities affected by drought. Your donations help us reach families who need water.",
+    "url": "https://www.facebook.com/story.php?story_fbid=1423436422500543&id=100045025957465",
+    "poster": "/campaigns/water-project.jpg",
+    "duration": "1:59",
+    "embed": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F933498429323416%2F&show_text=false&width=560&t=0",
+    "video": "/videos/water-project.mp4"
+  },
+  {
+    "id": "eid-mogadishu",
+    "title": "Eid donations in Mogadishu",
+    "category": "Eid",
+    "location": "Mogadishu",
+    "description": "We distributed Eid donations to orphaned children from different neighbourhoods in Mogadishu.",
+    "url": "https://www.facebook.com/story.php?story_fbid=1457534589090726&id=100045025957465",
+    "poster": "/campaigns/eid-mogadishu.jpg",
+    "duration": "1:20",
+    "embed": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1566998584387993%2F&show_text=false&width=560",
+    "video": "/videos/eid-mogadishu.mp4"
+  },
+  {
+    "id": "zakat-fitr-bosaso",
+    "title": "Zakat al-Fitr distribution",
+    "category": "Zakat al-Fitr",
+    "location": "Bosaso · location reported by SCO",
+    "description": "We distributed Zakat al-Fitr at the Bosaso orphanage.",
+    "url": "https://www.facebook.com/reel/2418654841910324",
+    "poster": "/campaigns/zakat-fitr-bosaso.jpg",
+    "duration": "2:17",
+    "embed": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2418654841910324&show_text=false&width=560",
+    "video": "/videos/zakat-fitr-bosaso.mp4"
+  },
+  {
+    "id": "eid-bosaso",
+    "title": "Eid program in Bosaso",
+    "category": "Eid",
+    "location": "Bosaso",
+    "description": "Our Bosaso centre supported children during Eid, with help from our donors.",
+    "url": "https://www.facebook.com/story.php?story_fbid=1457724135738438&id=100045025957465",
+    "poster": "/campaigns/eid-bosaso.jpg",
+    "duration": "1:38",
+    "embed": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1488187762755808%2F&show_text=false&width=560",
+    "video": "/videos/eid-bosaso.mp4"
+  },
+  {
+    "id": "iftar-1",
+    "title": "Ramadan distribution update",
+    "category": "Ramadan iftar",
+    "location": "Ramadan program",
+    "description": "Our Ramadan teams distributed iftar meals to people in need.",
+    "url": "https://www.facebook.com/reel/2444042089277099",
+    "poster": "/campaigns/iftar-1.jpg",
+    "duration": "0:38",
+    "embed": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2444042089277099&show_text=false&width=560",
+    "video": "/videos/iftar-1.mp4"
+  },
+  {
+    "id": "iftar-2",
+    "title": "Ramadan iftar support",
+    "category": "Ramadan iftar",
+    "location": "Ramadan program",
+    "description": "Community donations supported our Ramadan iftar program.",
+    "url": "https://www.facebook.com/reel/1051175303511657",
+    "poster": "/campaigns/iftar-2.jpg",
+    "duration": "3:06",
+    "embed": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1051175303511657&show_text=false&width=560",
+    "video": "/videos/iftar-2.mp4"
+  },
+  {
+    "id": "eid-additional",
+    "title": "Eid support update",
+    "category": "Eid",
+    "location": "Eid program",
+    "description": "We helped children celebrate Eid through our Ciidsiin program.",
+    "url": "https://www.facebook.com/reel/647573494874187",
+    "poster": "/campaigns/eid-additional.jpg",
+    "duration": "1:13",
+    "embed": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FAli.khadaab%2Fvideos%2F647573494874187%2F&show_text=false&width=560&t=0",
+    "video": "/videos/eid-additional.mp4"
+  }
+]

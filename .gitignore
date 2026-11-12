@@ -1,0 +1,33 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+# Local browser evidence can contain account UI and expiring media URLs.
+evidence/
+*.png
+*.jpg
+*.zip
+/*.json
+!/package.json
+!/public/**/*.json
+/src/*.json
+!/src/campaigns.json
+!/src/school-photos.json
+/*-lock.json
+/package-lock.json
+/*-*.cjs
+/collect-school.cjs
+/complete-school-batch.cjs
+/integrate-school.cjs
+/school-manifest.cjs
+/update-social.cjs
+/selfhost-fonts.cjs
+/add-water.cjs
+/simplify-copy.cjs
+/public/hero.png
+/public/education.png
+# Real project media is intentionally tracked.
+!/public/**/*.jpg
+!/public/**/*.png
