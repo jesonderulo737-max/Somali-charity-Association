@@ -17,6 +17,36 @@
     {
       "file": "public/slides/food-distribution.jpg",
       "sha256": "6ab169ff330e5060f284ad5be846780ef0956bda3e460c6d7c8d4c0c71a860ec"
+    },
+    {
+      "file": "public/slides/happy-children.jpg",
+      "originalFilename": "472371841_1076887957521785_3701707057126235980_n.jpg",
+      "sha256": "bbfff02e3fe6ea3cc319899e6b1ad35617d1dd9abd9490d7cef89517ba47c810"
+    },
+    {
+      "file": "public/slides/mosque-ablution.jpg",
+      "originalFilename": "474876032_1140920334085488_1331759127215090220_n.jpg",
+      "sha256": "899704dfc109ccc9e2bb74a9f27f450b07075a1b99050ed4e55c474a21411b77"
+    },
+    {
+      "file": "public/slides/mosque-interior.jpg",
+      "originalFilename": "475064410_1140920340752154_3472241641861510125_n.jpg",
+      "sha256": "6f628efdf36479b8914310397c9b4d5c856c8e288b29d1d3ba953555a116c48b"
+    },
+    {
+      "file": "public/slides/mosque-exterior.jpg",
+      "originalFilename": "475119062_1140920287418826_5066284309155233494_n.jpg",
+      "sha256": "69ac972dced05a1b0d47897eca738899e69fb58b9b5aa70292b0c6410104ec27"
+    },
+    {
+      "file": "public/slides/team-portrait.jpg",
+      "originalFilename": "481503928_1163051905205664_734469121503206492_n.jpg",
+      "sha256": "f23aeb826129bf98890dd0dc76bc5e86246a5d769decca9f6cfd34db3d706974"
+    },
+    {
+      "file": "public/slides/team-group.jpg",
+      "originalFilename": "482073106_1163051875205667_4320923818071042169_n.jpg",
+      "sha256": "3abd2379537fafee02e67480a9dd6b84e0e8a5042b0644e844cc13e2a2e62fcd"
     }
   ],
   "claims": {
@@ -37,7 +67,28 @@
     "graduationYear": {
       "year": 2026,
       "source": "SCO-supplied caption for the graduation photograph"
+    },
+    "ramadan": {
+      "count": "75600+",
+      "unit": "iftar portions distributed",
+      "waterDistributed": true,
+      "locations": [
+        "Korontada",
+        "Isgoyska Balaksii",
+        "Isgoyska Bakaaraha",
+        "Isgoyska Tarabunka",
+        "Isgoyska Baar ubax",
+        "Isgoyska Taleex"
+      ],
+      "source": "SCO identified both team photos and locations in chat; unit follows prior meals/iftar portions clarification"
     }
   },
-  "notes": "The supplied Downloads filename with (1) was absent. The same image was found without (1), and a second matching file was present in the supplied Desktop folder. Originals are preserved without image edits."
+  "notes": "The supplied Downloads filename with (1) was absent. The same image was found without (1), and a second matching file was present in the supplied Desktop folder. Originals are preserved without image edits.",
+  "motion": {
+    "intervalMilliseconds": 10000,
+    "transition": "Synchronized crossfade, soft focus and subtle scale. No directional photo swipe.",
+    "visibleControls": false,
+    "reducedMotion": true
+  },
+  "additionalNotes": "Six additional images supplied by SCO in chat. First uses the requested Happy children Happy somalia slogan. Mosque/ablution captions describe visible facilities; no location, completion date, cost or reach is inferred. Team members are not individually identified. Original photo files are unedited. SCO identified both team photos as Ramadan iftar and water distribution heroes."
 }
