@@ -34,3 +34,5 @@ evidence/
 
 !/src/giving-programs.json
 !/src/graduate-cohorts.json
+
+!/src/news.json

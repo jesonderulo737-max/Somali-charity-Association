@@ -19,7 +19,7 @@ The build emits static files in `dist/client` and the preserved Sites worker/hos
 
 Real photos and posters are stored locally. All seven supplied videos were downloaded through FDown’s public results and are hosted locally under public/videos, with native controls and original-update links. Contact links point to SCO’s listed email/telephone and public social accounts.
 
-Caption translations are concise English meanings, with the Somali excerpts and original sources in the activity table. Small school-post amounts are donations that enabled the work. Ramadan’s 75,600+ figure counts portions and is supplied by SCO. The review covers accessible posts, not the full Facebook archive. See [content evidence](docs/content-evidence.md).
+The complete interface is in Somali, with original caption excerpts and source links in the activity table. Internal program/category keys are separate from Somali display labels. Small school-post amounts are donations that enabled the work. Ramadan’s 75,600+ figure counts portions and is supplied by SCO. The review covers accessible posts, not the full Facebook archive. See [content evidence](docs/content-evidence.md).
 
 ## Before public launch
 
@@ -28,3 +28,13 @@ Caption translations are concise English meanings, with the Somali excerpts and 
 - Choose hosting and a domain, configure HTTPS and host security headers, and verify media delivery on the chosen host. The included `public/_headers` applies only on hosts that support that format.
 
 No secret keys, browser-session files, raw retrieval evidence, or generated project imagery belong in the repository.
+
+## Somali interface audit
+
+The feature/somali-interface branch contains the localization audit and regression fixes for PR #1. See [the audit report](docs/localization-audit.md) for the reviewed files, browser results and remaining launch limitations. Keep main unchanged until SCO approves the PR.
+
+## Updating the news section
+
+News content lives in `src/news.json`. Each item contains a unique `id`, Somali `category`, `title`, `summary`, local `image`, Somali `alt`, `context`, full `body` paragraphs and a `sourceNote`. An optional `link` and `linkLabel` can point to a verified HTTPS source or an existing section such as `#graduates`. Categories appear automatically in the news filters. Copy an existing item to add a story, use confirmed SCO facts and original media, and omit publication dates unless confirmed. Run the build/tests before committing the content update.
+
+The website displays news cards and full article dialogs. This is repository-managed content, not a connected staff CMS. A future authenticated editor can use the same fields when SCO chooses a backend. Mission and vision copy in `src/About.jsx` is a new draft grounded in SCO's existing work, for SCO to refine.

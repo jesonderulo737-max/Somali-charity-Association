@@ -7,7 +7,7 @@ test('hero holds ten original photographs for ten seconds each',async()=>{
   assert.equal(SLIDE_INTERVAL_MS,10000);
   assert.equal(slides.length,10);
   assert.equal(new Set(slides.map(s=>s.id)).size,10);
-  assert.match(slides[0].title,/Happy children\s+Happy somalia/);
+  assert.match(slides[0].title,/Carruur faraxsan\s+Soomaaliya faraxsan/);
   for(const slide of slides){
     assert.ok(slide.title&&slide.description&&slide.alt,slide.id);
     const image=await readFile(new URL('../public'+slide.image,import.meta.url));
@@ -20,6 +20,6 @@ test('program photographs use their matching reach figures',()=>{
     assert.ok(slide.detail&&slide.scope,slide.id);
   }
   for(const slide of slides.filter(s=>s.figure)){
-    assert.ok((slide.figure==='148,000+'&&slide.unit==='people supported')||(slide.figure==='544,000+'&&slide.unit==='families fed')||(slide.id.startsWith('team-')&&slide.figure==='75,600+'&&slide.unit==='iftar portions distributed'));
+    assert.ok((slide.figure==='148,000+'&&slide.unit==='qof oo la taageeray')||(slide.figure==='544,000+'&&slide.unit==='qoys oo cunto helay')||(slide.id.startsWith('team-')&&slide.figure==='75,600+'&&slide.unit==='qaybood oo af-fur ah oo la qaybiyey'));
   }
 });

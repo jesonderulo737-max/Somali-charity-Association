@@ -24,3 +24,7 @@ SCO supplied four additional photos in chat: children holding Eid support envelo
 
 ## Graduate cohorts — SCO supplied on 13 November 2026
 SCO provided two complete lists directly in chat for the Graduated students section: Cohort 1 (2025), 20 students; Cohort 2 (2026), 20 students. src/graduate-cohorts.json preserves their supplied spelling, abbreviations and capitalization. These are separate graduation cohorts; do not substitute the combined education/Eid reach metric for a graduate count. No individual is matched to a photograph.
+
+## Mosque identification — 13 November 2026
+
+SCO directly clarified that the mosque exterior, prayer-hall interior and ablution-area images show the new mosque funded through donors' help and sadaqah. The website now uses this identification and sadaqo jaariya wording. No location, completion/publication date, monetary total or mosque proper name is inferred. The new news items summarize SCO-provided graduate data, Ramadan distribution context and this mosque description; their context labels are not invented publication dates. New mission/vision wording is a draft based on the organization's existing work.
