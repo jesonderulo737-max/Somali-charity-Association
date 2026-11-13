@@ -24,6 +24,10 @@ SCO reconfirmed Sahal recipient 0616666744 and exact template *883*0616666744*am
 
 ## Slideshow and reach — 13 November 2026
 
-Use the four SCO-supplied photographs for the hero background slideshow: Eid support envelopes, graduation, food packages and family food distribution. Graduation caption/year is supplied by SCO as 2026. Keep the top navigation compact (68px desktop, 64px mobile) and hero heading smaller to leave more room for photos. Provide manual slideshow controls, a pause button, pause on hover/focus, and respect reduced-motion preferences.
+Use the four SCO-supplied photographs for the hero slideshow: Eid support envelopes, graduation, food packages and family food distribution. Graduation caption/year is supplied by SCO as 2026. Keep the top navigation compact (68px desktop, 64px mobile) and hero heading smaller to leave more room for photos. The latest annotated correction below governs the layout and rotation; retain reduced-motion support.
 
 SCO confirmed that 148,000+ is people supported through education and Eid and 544,000+ is families fed through the feeding program. These are not monetary amounts. Period and unique/cumulative counting methods were not established; do not label them unique beneficiaries, sum the metrics or conflate them with the 75,600+ Ramadan meal/iftar portions.
+
+## Corrected hero direction — 13 November 2026
+
+The annotated screenshot supersedes the previous background-overlay layout: use a left text panel synchronized with a contained photo in a separate right visual frame. Put 148,000+ people (education/Eid) or 544,000+ families (feeding) inside the matching left text, not a separate statistics strip. Show 2026 graduation copy on its matching image. Images must fit completely inside their frame without reaching the header or cropping heads. Remove all visible slideshow arrows, dots, footer captions and play/pause controls. Advance photo and copy together every 1,000 milliseconds, with reduced-motion support.
