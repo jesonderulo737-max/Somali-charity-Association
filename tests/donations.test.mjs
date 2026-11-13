@@ -24,15 +24,15 @@ test('SCO transfer codes retain the complete recipient and chosen amount',()=>{
 test('payment reports remain verification requests and update consent stays separate',()=>{
   const data={program:selectedProgram('Water relief'),amount:'25',method:paymentMethods[0],senderPhone:' 0612345678 ',dedication:' My parents ',email:' donor@example.com ',updates:false};
   const message=reportMessage(data);
-  assert.match(message,/Please verify my donation/);
-  assert.match(message,/Sent from phone number: 0612345678/);
+  assert.match(message,/waxaan rabaa in la hubiyo deeqdayda/);
+  assert.match(message,/Lambarka lacagta laga diray: 0612345678/);
   assert.match(message,/donor@example.com/);
-  assert.match(message,/Sadaqah dedicated to: My parents/);
+  assert.match(message,/Sadaqada waxaa loogu talagalay: My parents/);
   assert.doesNotMatch(message,/Payment reference/);
-  assert.doesNotMatch(reportMessage({...data,dedication:''}),/Sadaqah dedicated to/);
-  assert.doesNotMatch(message,/new donation rounds/);
-  assert.match(reportMessage({...data,updates:true}),/new donation rounds/);
-  assert.doesNotMatch(reportMessage({...data,email:'',updates:true}),/new donation rounds/);
+  assert.doesNotMatch(reportMessage({...data,dedication:''}),/Sadaqada waxaa loogu talagalay/);
+  assert.doesNotMatch(message,/marka deeq-bixin cusub bilaabato/);
+  assert.match(reportMessage({...data,updates:true}),/marka deeq-bixin cusub bilaabato/);
+  assert.doesNotMatch(reportMessage({...data,email:'',updates:true}),/marka deeq-bixin cusub bilaabato/);
   assert.equal(new URL(whatsappLink(message)).searchParams.get('text'),message);
 });
 

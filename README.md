@@ -19,7 +19,7 @@ The build emits static files in `dist/client` and the preserved Sites worker/hos
 
 Real photos and posters are stored locally. All seven supplied videos were downloaded through FDown’s public results and are hosted locally under public/videos, with native controls and original-update links. Contact links point to SCO’s listed email/telephone and public social accounts.
 
-Caption translations are concise English meanings, with the Somali excerpts and original sources in the activity table. Small school-post amounts are donations that enabled the work. Ramadan’s 75,600+ figure counts portions and is supplied by SCO. The review covers accessible posts, not the full Facebook archive. See [content evidence](docs/content-evidence.md).
+The complete interface is in Somali, with original caption excerpts and source links in the activity table. Internal program/category keys are separate from Somali display labels. Small school-post amounts are donations that enabled the work. Ramadan’s 75,600+ figure counts portions and is supplied by SCO. The review covers accessible posts, not the full Facebook archive. See [content evidence](docs/content-evidence.md).
 
 ## Before public launch
 
@@ -28,3 +28,7 @@ Caption translations are concise English meanings, with the Somali excerpts and 
 - Choose hosting and a domain, configure HTTPS and host security headers, and verify media delivery on the chosen host. The included `public/_headers` applies only on hosts that support that format.
 
 No secret keys, browser-session files, raw retrieval evidence, or generated project imagery belong in the repository.
+
+## Somali interface audit
+
+The feature/somali-interface branch contains the localization audit and regression fixes for PR #1. See [the audit report](docs/localization-audit.md) for the reviewed files, browser results and remaining launch limitations. Keep main unchanged until SCO approves the PR.

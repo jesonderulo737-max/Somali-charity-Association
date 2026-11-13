@@ -2,7 +2,7 @@ import givingPrograms from './giving-programs.json' with {type:'json'};
 import {validAmount} from './calculations.js';
 
 export {givingPrograms};
-export const programLabel=(name)=>({'Where most needed':'Meesha baahidu ugu badan tahay','Water relief':'Biyo-gurmad','Education and orphan care':'Waxbarashada iyo daryeelka agoonta','Ramadan iftar':'Af-furka Ramadaanka','Eid support':'Taageerada Ciidda','Zakat al-Fitr':'Sakada Fidriga'}[name]??name);
+export const programLabel=(name)=>({'Where most needed':'Meesha baahidu ugu badan tahay','Water relief':'Gurmadka biyaha','Education and orphan care':'Waxbarashada iyo daryeelka agoonta','Ramadan iftar':'Af-furka Ramadaanka','Eid support':'Taageerada Ciidda','Zakat al-Fitr':'Sakada Fidriga','Sadaqah':'Sadaqo'}[name]??name);
 export const paymentMethods = [
   {id:'evc',name:'EVC Plus',recipient:'616 666 744',number:'616666744',prefix:'712'},
   {id:'mpesa',name:'M-Pesa',recipient:'0712828308',number:'0712828308',accountName:'Abdullahi Mahamed'},

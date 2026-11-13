@@ -2,7 +2,7 @@
   {
     "id": "water-project",
     "title": "Biyo-gurmadka xilliga abaarta",
-    "category": "Biyo-gurmad",
+    "category": "Water",
     "location": "Soomaaliya",
     "description": "Waxaan biyo degdeg ah gaarsiinnaa bulshooyinka abaartu saamaysay. Deeqihiinnu waxay naga caawiyaan inaan gaarno qoysaska biyaha u baahan.",
     "url": "https://www.facebook.com/story.php?story_fbid=1423436422500543&id=100045025957465",
@@ -14,7 +14,7 @@
   {
     "id": "eid-mogadishu",
     "title": "Deeqaha Ciidda ee Muqdisho",
-    "category": "Taageerada Ciidda",
+    "category": "Eid",
     "location": "Muqdisho",
     "description": "Waxaan deeqo Ciid ah u qaybinay carruur agoon ah oo ka kala timid xaafadaha Muqdisho.",
     "url": "https://www.facebook.com/story.php?story_fbid=1457534589090726&id=100045025957465",
@@ -26,7 +26,7 @@
   {
     "id": "zakat-fitr-bosaso",
     "title": "Qaybinta Sakada Fidriga",
-    "category": "Sakada Fidriga",
+    "category": "Zakat al-Fitr",
     "location": "Boosaaso · sida ay SCO sheegtay",
     "description": "Waxaan Sakada Fidriga ku qaybinay xarunta agoonta ee Boosaaso.",
     "url": "https://www.facebook.com/reel/2418654841910324",
@@ -38,7 +38,7 @@
   {
     "id": "eid-bosaso",
     "title": "Barnaamijka Ciidda ee Boosaaso",
-    "category": "Taageerada Ciidda",
+    "category": "Eid",
     "location": "Boosaaso",
     "description": "Xarunteenna Boosaaso waxay carruurta ka taageertay Ciidda iyadoo kaashanaysa deeq-bixiyeyaasha.",
     "url": "https://www.facebook.com/story.php?story_fbid=1457724135738438&id=100045025957465",
@@ -50,7 +50,7 @@
   {
     "id": "iftar-1",
     "title": "Warbixinta qaybinta Ramadaanka",
-    "category": "Af-furka Ramadaanka",
+    "category": "Ramadan iftar",
     "location": "Barnaamijka Ramadaanka",
     "description": "Kooxaheenna Ramadaanku waxay af-fur u qaybiyeen dadka baahan.",
     "url": "https://www.facebook.com/reel/2444042089277099",
@@ -62,7 +62,7 @@
   {
     "id": "iftar-2",
     "title": "Taageerada af-furka Ramadaanka",
-    "category": "Af-furka Ramadaanka",
+    "category": "Ramadan iftar",
     "location": "Barnaamijka Ramadaanka",
     "description": "Deeqaha bulshadu waxay taageereen barnaamijkeenna af-furka Ramadaanka.",
     "url": "https://www.facebook.com/reel/1051175303511657",
@@ -74,7 +74,7 @@
   {
     "id": "eid-additional",
     "title": "Warbixinta taageerada Ciidda",
-    "category": "Taageerada Ciidda",
+    "category": "Eid",
     "location": "Barnaamijka Ciidda",
     "description": "Waxaan carruurta ku caawinnay farxadda Ciidda annagoo adeegsanayna barnaamijka Ciidsiin.",
     "url": "https://www.facebook.com/reel/647573494874187",

@@ -9,3 +9,8 @@ test('seven supplied program sources have local posters and Facebook fallbacks',
 test('site uses real imagery and does not import external fonts',async()=>{const app=await readFile(new URL('../src/App.jsx',import.meta.url),'utf8'),css=await readFile(new URL('../src/styles.css',import.meta.url),'utf8');assert.doesNotMatch(app,/hero\.png|education\.png/);assert.doesNotMatch(css,/fonts.googleapis.com/);});
 
 test('every program has a local MP4 with video and audio tracks', async()=>{const programs=JSON.parse(await readFile(new URL('../src/campaigns.json',import.meta.url),'utf8'));for(const program of programs){assert.match(program.video,/^\/videos\/[a-z0-9-]+\.mp4$/);const b=await readFile(new URL('../public'+program.video,import.meta.url));assert.equal(b.toString('ascii',4,8),'ftyp');assert.ok(b.includes(Buffer.from('vide')),program.id+' video track');assert.ok(b.includes(Buffer.from('soun')),program.id+' audio track');}});
+
+test('Zakat keeps empty, invalid and liability edge cases unchanged',()=>{
+ for(const values of [['','0','5000'],['10000','0',''],['10000','0','0'],['-1','0','5000'],['10000','Infinity','5000'],['10000','0','bad']])assert.equal(zakatEstimate(...values),null);
+ assert.equal(zakatEstimate('10000','20000','5000'),0);assert.equal(zakatEstimate('5000','','5000'),125);
+});
