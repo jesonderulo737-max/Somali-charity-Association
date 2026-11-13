@@ -21,3 +21,6 @@ The emergency water video supplied by SCO resolves to a post whose embedded reel
 ## Supplied slideshow photos and reach figures (13 November 2026)
 
 SCO supplied four additional photos in chat: children holding Eid support envelopes, graduates, food packages, and family food distribution. SCO identifies the graduation as 2026 and clarified that the new figures are people/families, not monetary amounts: 148,000+ people helped through education and Eid, and 544,000+ families fed. The reporting period and unique/cumulative counting basis were not established. These are separate from the 75,600+ Ramadan iftar portion count. See slideshow-sources.json for asset hashes and source notes.
+
+## Graduate cohorts — SCO supplied on 13 November 2026
+SCO provided two complete lists directly in chat for the Graduated students section: Cohort 1 (2025), 20 students; Cohort 2 (2026), 20 students. src/graduate-cohorts.json preserves their supplied spelling, abbreviations and capitalization. These are separate graduation cohorts; do not substitute the combined education/Eid reach metric for a graduate count. No individual is matched to a photograph.

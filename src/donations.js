@@ -16,11 +16,12 @@ export function donationPresets(program){return program.minimumUSD===null?[]:[..
 export function paymentCode(method,value){if(!method?.prefix||!validAmount(value))return null;return `*${method.prefix}*${method.number}*${amountText(value)}#`;}
 export function dialLink(code){return code?`tel:${encodeURIComponent(code)}`:null;}
 export function whatsappLink(message){return 'https://wa.me/252616666744?text='+encodeURIComponent(message);}
-export function reportMessage({program,amount,method,reference,email,updates}){
+export function validSenderPhone(value){const phone=String(value??'').trim();return /^[+0-9 ()-]+$/.test(phone)&&/^\+?\d{7,15}$/.test(phone.replace(/[ ()-]/g,''));}
+export function reportMessage({program,amount,method,senderPhone='',dedication='',email='',updates}){
   return ['Salaan SCO, waxaan rabaa in la hubiyo deeqdayda. / Please verify my donation.',
     'Program: '+program.name,'Amount selected on website: USD '+amountText(amount),
     'Payment method: '+method.name,'Recipient: '+method.recipient,
-    'Payment reference: '+reference.trim(),email.trim()?'Email for a receipt after confirmation: '+email.trim():null,
+    'Sent from phone number: '+senderPhone.trim(),dedication.trim()?'Sadaqah dedicated to: '+dedication.trim():null,email.trim()?'Email for a receipt after confirmation: '+email.trim():null,
     updates&&email.trim()?'I would also like email updates when new donation rounds open.':null,
     'Please confirm receipt after checking the transfer.'].filter(Boolean).join('\n');
 }

@@ -33,3 +33,4 @@ evidence/
 !/public/**/*.png
 
 !/src/giving-programs.json
+!/src/graduate-cohorts.json

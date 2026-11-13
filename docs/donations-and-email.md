@@ -62,3 +62,6 @@ You received this because you asked for new-round updates. Unsubscribe: {unsubsc
 ## SCO decisions recorded on 12 November 2026
 
 Program minimums will be decided later. Current sadaqah amounts are provisional starting amounts. Domain selection and the sending email account/provider purchase are also deferred. Do not activate or represent an automated mailing list or receipt service until these choices and payment verification are connected. Sahal recipient/template was reconfirmed exactly as documented above. M-Pesa number was reconfirmed without a currency/country decision.
+
+## Updated donor flow — 13 November 2026
+Program selection opens payment options directly; amount presets and frequency are inside the dialog. Optional sadaqah dedication is included in the WhatsApp verification draft. Donors enter the mobile-money sender phone number instead of a payment reference. SCO must match it against payment records before confirming. Optional email and separate updates consent remain in that draft; no automated email service or database is active. Donor details stay in memory, are not written to storage, and are shared only when the donor chooses to send the prepared message.
