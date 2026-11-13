@@ -20,7 +20,7 @@ export function whatsappLink(message){return 'https://wa.me/252616666744?text='+
 export function validSenderPhone(value){const phone=String(value??'').trim();return /^[+0-9 ()-]+$/.test(phone)&&/^\+?\d{7,15}$/.test(phone.replace(/[ ()-]/g,''));}
 export function reportMessage({program,amount,method,senderPhone='',dedication='',email='',updates}){
   return ['Salaan SCO, waxaan rabaa in la hubiyo deeqdayda.',
-    'Barnaamijka: '+program.name,'Cadadka laga doortay bogga: USD '+amountText(amount),
+    'Barnaamijka: '+programLabel(program.name),'Cadadka laga doortay bogga: USD '+amountText(amount),
     'Habka lacag-bixinta: '+method.name,'Qaataha: '+method.recipient,
     'Lambarka lacagta laga diray: '+senderPhone.trim(),dedication.trim()?'Sadaqada waxaa loogu talagalay: '+dedication.trim():null,email.trim()?'Iimaylka rasiidhka marka la xaqiijiyo: '+email.trim():null,
     updates&&email.trim()?'Waxaan rabaa farriimo iimayl ah marka deeq-bixin cusub bilaabato.':null,
