@@ -2,6 +2,7 @@ import givingPrograms from './giving-programs.json' with {type:'json'};
 import {validAmount} from './calculations.js';
 
 export {givingPrograms};
+export const programLabel=(name)=>({'Where most needed':'Meesha baahidu ugu badan tahay','Water relief':'Biyo-gurmad','Education and orphan care':'Waxbarashada iyo daryeelka agoonta','Ramadan iftar':'Af-furka Ramadaanka','Eid support':'Taageerada Ciidda','Zakat al-Fitr':'Sakada Fidriga'}[name]??name);
 export const paymentMethods = [
   {id:'evc',name:'EVC Plus',recipient:'616 666 744',number:'616666744',prefix:'712'},
   {id:'mpesa',name:'M-Pesa',recipient:'0712828308',number:'0712828308',accountName:'Abdullahi Mahamed'},
@@ -18,10 +19,10 @@ export function dialLink(code){return code?`tel:${encodeURIComponent(code)}`:nul
 export function whatsappLink(message){return 'https://wa.me/252616666744?text='+encodeURIComponent(message);}
 export function validSenderPhone(value){const phone=String(value??'').trim();return /^[+0-9 ()-]+$/.test(phone)&&/^\+?\d{7,15}$/.test(phone.replace(/[ ()-]/g,''));}
 export function reportMessage({program,amount,method,senderPhone='',dedication='',email='',updates}){
-  return ['Salaan SCO, waxaan rabaa in la hubiyo deeqdayda. / Please verify my donation.',
-    'Program: '+program.name,'Amount selected on website: USD '+amountText(amount),
-    'Payment method: '+method.name,'Recipient: '+method.recipient,
-    'Sent from phone number: '+senderPhone.trim(),dedication.trim()?'Sadaqah dedicated to: '+dedication.trim():null,email.trim()?'Email for a receipt after confirmation: '+email.trim():null,
-    updates&&email.trim()?'I would also like email updates when new donation rounds open.':null,
-    'Please confirm receipt after checking the transfer.'].filter(Boolean).join('\n');
+  return ['Salaan SCO, waxaan rabaa in la hubiyo deeqdayda.',
+    'Barnaamijka: '+program.name,'Cadadka laga doortay bogga: USD '+amountText(amount),
+    'Habka lacag-bixinta: '+method.name,'Qaataha: '+method.recipient,
+    'Lambarka lacagta laga diray: '+senderPhone.trim(),dedication.trim()?'Sadaqada waxaa loogu talagalay: '+dedication.trim():null,email.trim()?'Iimaylka rasiidhka marka la xaqiijiyo: '+email.trim():null,
+    updates&&email.trim()?'Waxaan rabaa farriimo iimayl ah marka deeq-bixin cusub bilaabato.':null,
+    'Fadlan xaqiiji helitaanka lacagta marka wareejinta la hubiyo.'].filter(Boolean).join('\n');
 }
