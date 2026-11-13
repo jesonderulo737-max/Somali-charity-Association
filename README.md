@@ -32,3 +32,9 @@ No secret keys, browser-session files, raw retrieval evidence, or generated proj
 ## Somali interface audit
 
 The feature/somali-interface branch contains the localization audit and regression fixes for PR #1. See [the audit report](docs/localization-audit.md) for the reviewed files, browser results and remaining launch limitations. Keep main unchanged until SCO approves the PR.
+
+## Updating the news section
+
+News content lives in `src/news.json`. Each item contains a unique `id`, Somali `category`, `title`, `summary`, local `image`, Somali `alt`, `context`, full `body` paragraphs and a `sourceNote`. An optional `link` and `linkLabel` can point to a verified HTTPS source or an existing section such as `#graduates`. Categories appear automatically in the news filters. Copy an existing item to add a story, use confirmed SCO facts and original media, and omit publication dates unless confirmed. Run the build/tests before committing the content update.
+
+The website displays news cards and full article dialogs. This is repository-managed content, not a connected staff CMS. A future authenticated editor can use the same fields when SCO chooses a backend. Mission and vision copy in `src/About.jsx` is a new draft grounded in SCO's existing work, for SCO to refine.

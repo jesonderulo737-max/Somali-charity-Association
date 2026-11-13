@@ -1,4 +1,4 @@
-export const categoryLabels={'All programs':'Dhammaan barnaamijyada',Water:'Gurmadka biyaha',Eid:'Taageerada Ciidda','Zakat al-Fitr':'Sakada Fidriga','Ramadan iftar':'Af-furka Ramadaanka'};
+export const categoryLabels={'All programs':'Dhammaan mashaariicda',Water:'Gurmadka biyaha',Eid:'Taageerada Ciidda','Zakat al-Fitr':'Sakada Fidriga','Ramadan iftar':'Af-furka Ramadaanka'};
 export const campaignFilters=Object.keys(categoryLabels);
 export const batchLabels={'All photos':'Dhammaan sawirrada','School ceremony':'Xafladda dugsiga','Eid support':'Taageerada Ciidda'};
 export const galleryFilters=Object.keys(batchLabels);

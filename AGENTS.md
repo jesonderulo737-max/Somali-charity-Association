@@ -45,3 +45,9 @@ SCO clarified the two graduate cohorts: cohort 1 is 2025 and cohort 2 is 2026, w
 
 ## Somali localization — 13 November 2026
 The complete application interface, metadata, alt text, accessibility labels, validation and WhatsApp drafts must be natural Somali. Keep brand/payment-provider names and user-supplied personal names unchanged. Persist internal category, gallery-batch and giving-program keys separately from Somali labels in src/localization.js and programLabel. Use feature/somali-interface and PR #1 for this work; do not merge or deploy without explicit approval. Maintain exact payment codes, calculations, media, source links, dates and figures. Documents and internal identifiers need not be translated.
+
+## Mosque wording, purpose and news — 13 November 2026
+
+SCO corrected the mosque photographs: the exterior is a newly built mosque funded through donors' support and sadaqah; the interior is its prayer area, and the washing photograph is its ablution area. Use clear Somali captions naming the mosque/prayer/ablution context, not generic community facilities. Describe it as sadaqo jaariya. Replace visible Barnaamijyada/related forms with Mashaariicda/mashruuc and donation CTAs with Sadaqa bixi; stable internal English keys remain unchanged.
+
+Retain the existing navy/blue/orange branding, Arial typography, real media, full contained hero photos and synchronized ten-second motion. Add a Somali mission/vision section and repository-managed news with filterable cards and readable article dialogs. Do not invent dates or report unverified totals; keep 75,600+ Ramadan portions distinct from unique people and the broader feeding-family figure. A staff CMS and automated email/backend remain unconnected. Continue in feature/somali-interface and PR #1; no merge or production deployment without approval.

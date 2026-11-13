@@ -1,0 +1,39 @@
+[
+  {
+    "id": "graduates-2026",
+    "category": "Waxbarashada",
+    "title": "Dufcadda 2026: 20 arday oo qalinjabisay",
+    "summary": "Sadaqadiinnu waxay taageertaa waxbarashada carruurta. Eeg dufcadda labaad ee ardaydeenna qalinjabisay.",
+    "image": "/slides/graduates.jpg",
+    "alt": "Ardayda SCO oo ka qaybgalaya xafladda qalinjabinta.",
+    "context": "Qalinjabinta 2026",
+    "body": ["Dufcadda labaad ee ardaydeenna qalinjabisay sannadka 2026 waxay ka kooban tahay 20 arday. Waxaan ku faraxsan nahay dadaalka ardayda iyo taageerada dadka sadaqada bixiyey.", "Qaybta ardayda qalinjabisay waxaad ka heli kartaa magacyada labada dufcadood: 20 arday oo sannadka 2025 ah iyo 20 arday oo sannadka 2026 ah."],
+    "link": "#graduates",
+    "linkLabel": "Eeg ardayda qalinjabisay",
+    "sourceNote": "Magacyada iyo sannadaha waxaa bixiyey SCO."
+  },
+  {
+    "id": "ramadan-iftar",
+    "category": "Ramadaan",
+    "title": "Af-fur iyo biyo loo qaybiyey bulshada",
+    "summary": "Lix kooxood ayaa qaybiyey in ka badan 75,600 oo qaybood oo cunto iyo af-fur ah, iyo biyo.",
+    "image": "/slides/team-group.jpg",
+    "alt": "Halyeeyada qaybinta af-furka Ramadaanka ee SCO oo wada taagan.",
+    "context": "Warbixinta af-furka",
+    "body": ["Halyeeyadeenna af-furka Ramadaanka waxay bulshada gaarsiiyeen cunto iyo biyo. Lixda goobood waa Korontada, Isgoyska Balaksii, Isgoyska Bakaaraha, Isgoyska Tarabunka, Isgoyska Baar ubax iyo Isgoyska Taleex.", "Tirada in ka badan 75,600 waxay tilmaamaysaa qaybaha cunto iyo af-fur ee la qaybiyey; ma aha tiro dad gaar ah. Waxaan u mahadcelinaynaa dadkii sadaqaystay iyo kooxihii ka qaybqaatay hawshan."],
+    "link": "https://www.facebook.com/reel/2444042089277099",
+    "linkLabel": "Eeg warbixintii asalka ahayd",
+    "sourceNote": "Tirada iyo goobaha waxaa bixiyey SCO; fiidiyowgu wuxuu muujinayaa qaybinta."
+  },
+  {
+    "id": "new-mosque",
+    "category": "Sadaqo jaariya",
+    "title": "Masjidka cusub ee sadaqadiinnu dhistay",
+    "summary": "Caawimaaddaada iyo sadaqada aad bixisay ayaa lagu dhisay masjid leh qaybta salaadda iyo qaybta weysada.",
+    "image": "/slides/mosque-exterior.jpg",
+    "alt": "Masjidka cusub ee SCO oo leh minaarad iyo gidaarro caddaan iyo buluug ah.",
+    "context": "Warbixinta masjidka",
+    "body": ["Masjidka cusub waxaa lagu dhisay caawimaaddaada iyo sadaqada aad bixisay. Waa goob lagu tukado salaadda, waana sadaqo jaariya oo bulshada u adeegta.", "Sawirrada mashruuca waxay muujinayaan bannaanka masjidka, gudaha qaybta salaadda iyo qaybta weysada. Waxaan u mahadcelinaynaa dhammaan dadkii ka qaybqaatay dhismihiisa."],
+    "sourceNote": "SCO ayaa bixisay sawirrada iyo faahfaahinta mashruuca."
+  }
+]
