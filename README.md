@@ -1,6 +1,6 @@
 # Somali Charity Organization (SCO)
 
-Responsive website using SCO’s logo, navy/blue/orange palette and Arial system typography. Includes seven program videos, 28 original school/Eid photos, a source-linked activity summary, photo viewer, program filters, a Zakat estimate, and amount-filled mobile-money donation instructions.
+Responsive website using SCO’s logo, navy/blue/orange palette and Arial system typography. Includes a four-photo hero slideshow with pause/manual controls, SCO-reported program reach, seven program videos, 28 original school/Eid photos, a source-linked activity summary, photo viewer, program filters, a Zakat estimate, and amount-filled mobile-money donation instructions.
 
 ## Local development
 

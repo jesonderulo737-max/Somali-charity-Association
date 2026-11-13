@@ -17,3 +17,7 @@ The 75,600+ Ramadan total and six-team list were supplied by SCO. SCO clarified 
 28 original images: 26 school ceremony photos (11 September 2025) and two Eid clothing/shoe support photos (15 March 2026). Source URLs and parent posts are recorded in `src/school-photos.json`. Beneficiaries are not identified from faces or certificates. Seven program poster images and source URLs are in `src/campaigns.json`. Seven MP4 files were downloaded from the public links returned by FDown and are hosted locally. The program descriptions use SCO’s first-person voice; source details remain available for verification. Raw account screenshots and expiring CDN URLs remain outside the repository.
 
 The emergency water video supplied by SCO resolves to a post whose embedded reel is 933498429323416. Facebook’s own Embed dialog provided its player URL. No generated water or education images are shipped.
+
+## Supplied slideshow photos and reach figures (13 November 2026)
+
+SCO supplied four additional photos in chat: children holding Eid support envelopes, graduates, food packages, and family food distribution. SCO identifies the graduation as 2026 and clarified that the new figures are people/families, not monetary amounts: 148,000+ people helped through education and Eid, and 544,000+ families fed. The reporting period and unique/cumulative counting basis were not established. These are separate from the 75,600+ Ramadan iftar portion count. See slideshow-sources.json for asset hashes and source notes.

@@ -22,3 +22,7 @@ The IAB viewport override did not affect the existing preview, so mobile verific
 ## Mobile-money donation update
 
 Program selection now initializes its configured minimum. Sadaqah currently retains USD 0.50; Zakat al-Fitr rate is pending SCO. EVC/ZAAD/Sahal codes use exact recipients and encode the final hash in tel links. M-Pesa and E-Dahab expose copyable numbers. Receipt requests use a WhatsApp draft; no payment is marked confirmed and no automatic email is claimed. See docs/donations-and-email.md for the pending activation details.
+
+## Hero slideshow — 13 November 2026
+
+Four user-supplied photographs now form the hero background. Automatic advance was observed, manual next/previous and wrap-around worked, and manual selection paused playback. The implementation also pauses on focus/hover and hides autoplay when reduced motion is requested. Desktop 1440px: navigation height 68px and smaller 46px hero title. Mobile 390px: navigation height 64px, title 36px, no horizontal page overflow. All four image assets loaded. Reach labels keep 148,000+ people (education/Eid) separate from 544,000+ families (feeding), with no monetary or unique-beneficiary interpretation. Graduation year 2026 comes from SCO’s supplied caption. Build and all 13 existing tests passed; the new carousel was verified in the browser.

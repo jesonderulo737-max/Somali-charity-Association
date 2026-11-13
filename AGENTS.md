@@ -21,3 +21,9 @@ Donation flows must use SCO-provided recipient numbers. Dial templates must be s
 SCO will decide the minimum donation for each program later. Existing USD 0.50 sadaqah amounts are provisional technical defaults, not an approved program policy; keep them configurable and describe them as starting amounts. The Zakat al-Fitr per-person rate remains unset. SCO will also choose its domain and purchase/choose the sending email account and email provider later. Do not guess these choices or claim automatic email is active. Keep room for verified thank-you emails, opt-in donation-round announcements and unsubscribe handling.
 
 SCO reconfirmed Sahal recipient 0616666744 and exact template *883*0616666744*amount#. M-Pesa recipient remains 0712828308; country/currency are not confirmed.
+
+## Slideshow and reach — 13 November 2026
+
+Use the four SCO-supplied photographs for the hero background slideshow: Eid support envelopes, graduation, food packages and family food distribution. Graduation caption/year is supplied by SCO as 2026. Keep the top navigation compact (68px desktop, 64px mobile) and hero heading smaller to leave more room for photos. Provide manual slideshow controls, a pause button, pause on hover/focus, and respect reduced-motion preferences.
+
+SCO confirmed that 148,000+ is people supported through education and Eid and 544,000+ is families fed through the feeding program. These are not monetary amounts. Period and unique/cumulative counting methods were not established; do not label them unique beneficiaries, sum the metrics or conflate them with the 75,600+ Ramadan meal/iftar portions.

@@ -1,0 +1,43 @@
+{
+  "suppliedBy": "SCO, in this chat",
+  "date": "2026-11-13",
+  "assets": [
+    {
+      "file": "public/slides/eid-support.jpg",
+      "sha256": "975c9d8af1d33c314e13df1469a658845f7ec186ea490f71de33dc41605801b5"
+    },
+    {
+      "file": "public/slides/graduates.jpg",
+      "sha256": "da10bc511a1f92ee3e1be891b8904cc9349a906466a15aa9a3978816129a395f"
+    },
+    {
+      "file": "public/slides/food-packages.jpg",
+      "sha256": "98d5d3b8c05b7cf53e447e73b2b1db01d4b2253f22f60b58b2d6b60da387a0fd"
+    },
+    {
+      "file": "public/slides/food-distribution.jpg",
+      "sha256": "6ab169ff330e5060f284ad5be846780ef0956bda3e460c6d7c8d4c0c71a860ec"
+    }
+  ],
+  "claims": {
+    "educationAndEid": {
+      "count": "148000+",
+      "unit": "people supported",
+      "source": "SCO clarification: families and people, not money",
+      "period": null,
+      "countingMethod": null
+    },
+    "feeding": {
+      "count": "544000+",
+      "unit": "families fed",
+      "source": "SCO brief and clarification",
+      "period": null,
+      "countingMethod": null
+    },
+    "graduationYear": {
+      "year": 2026,
+      "source": "SCO-supplied caption for the graduation photograph"
+    }
+  },
+  "notes": "The supplied Downloads filename with (1) was absent. The same image was found without (1), and a second matching file was present in the supplied Desktop folder. Originals are preserved without image edits."
+}
